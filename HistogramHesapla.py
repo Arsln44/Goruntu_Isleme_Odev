@@ -9,7 +9,7 @@ hist = cv.calcHist([image],[0],None,[256],[0,256])
 
 if image is not None:
     # Görüntü başarıyla yüklendi, ekranda göster
-    cv.imshow("B.A.A", image)
+    cv.imshow("Örnek Görüntü", image)
 
     # Kullanıcının bir tuşa basmasını bekleyin ve pencereyi kapatın
     cv.waitKey(0)
