@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Görüntüyü oku
-image = cv.imread("C:\\Users\\burak\\OneDrive\\Resimler\\Film Rulosu\\atam.jpg")
+image = cv.imread("https://github.com/Arsln44/HistogramHesaplama/blob/main/atam.jpg")
 hist = cv.calcHist([image],[0],None,[256],[0,256])
 
 
